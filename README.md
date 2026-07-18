@@ -6,3 +6,8 @@ Public support and privacy pages for apps published by Compact Refined Apps.
 
 - Support: <https://compact-refined-apps-lab.github.io/warm-rituals/support/>
 - Privacy: <https://compact-refined-apps-lab.github.io/warm-rituals/privacy/>
+
+## MemoFuse
+
+- Support: <https://compact-refined-apps-lab.github.io/memofuse/support/>
+- Privacy: <https://compact-refined-apps-lab.github.io/memofuse/privacy/>
