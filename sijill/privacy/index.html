@@ -28,14 +28,17 @@
   <p class="date">Effective July 18, 2026</p>
 
   <h2>Our approach</h2>
-  <p>Sijill is designed to keep your vehicle records on your device. Compact Refined Apps does not collect, transmit, sell, rent or use your vehicle profiles, maintenance records, costs, notes, reminders or receipt images.</p>
+  <p>Sijill is an offline-first app that uses Apple’s CloudKit to synchronize records through your private iCloud database. Compact Refined Apps cannot view production users’ private CloudKit records and does not collect, sell, rent or use your vehicle profiles, maintenance records, costs, notes, reminders or receipt images.</p>
 
-  <h2>Data stored on your iPhone</h2>
-  <p>The app stores information you enter and receipt images you select in its local app container. You can delete all app data in Settings. Deleting the app also removes its local data, subject to how iOS device backups are managed by you and Apple.</p>
+  <h2>Data stored on your iPhone and iCloud</h2>
+  <p>The app stores information you enter and receipt images you select in its local app container, then Apple synchronizes that content through the private CloudKit database associated with your iCloud account. Private-database content belongs to you, is not visible in the developer portal and counts against your iCloud storage quota. Apple’s iCloud terms and privacy policy apply to that service.</p>
+
+  <h2>Deletion and retention</h2>
+  <p>Delete All Data in Sijill Settings removes the app’s records and synchronizes that deletion through iCloud when available. Deleting Sijill from one device removes its local copy but does not by itself erase the private iCloud copy; the data may return after reinstalling or using another device signed in to the same iCloud account.</p>
 
   <h2>Photos, notifications and exports</h2>
   <ul>
-    <li>Sijill receives only the receipt image you choose through Apple’s system Photos picker.</li>
+    <li>Sijill receives only the receipt image you choose through Apple’s system Photos picker. That image participates in the same private iCloud synchronization as the related service record.</li>
     <li>Optional reminders are scheduled locally after you grant notification permission.</li>
     <li>PDF histories leave the app only when you choose a destination in the system share sheet. The destination’s privacy terms then apply.</li>
   </ul>
@@ -44,7 +47,7 @@
   <p>Sijill Pro purchases are processed by Apple through StoreKit. We do not receive your payment-card details. Apple may process purchase and account information under Apple’s own privacy policy.</p>
 
   <h2>No tracking or advertising</h2>
-  <p>Sijill contains no advertising SDK, third-party analytics SDK or cross-app tracking. Version 1.0 has no developer-operated account or cloud service.</p>
+  <p>Sijill contains no advertising SDK, third-party analytics SDK or cross-app tracking. Version 1.0 has no Sijill account, custom backend or developer-operated cloud database; it uses Apple’s private CloudKit and StoreKit services.</p>
 
   <h2>Support and this website</h2>
   <p>If you email support, we receive the email address and information you choose to send so we can reply. This website is hosted by GitHub Pages, whose infrastructure may process standard web requests under GitHub’s privacy terms.</p>
@@ -56,19 +59,21 @@
     <h1>سياسة الخصوصية</h1>
     <p class="date">تاريخ السريان: 18 يوليو 2026</p>
     <h2>نهجنا</h2>
-    <p>صُمم سِجِلّ للاحتفاظ بسجلات سيارتك على جهازك. لا تجمع Compact Refined Apps ملفات السيارات أو سجلات الصيانة أو التكاليف أو الملاحظات أو التذكيرات أو صور الفواتير، ولا ترسلها أو تبيعها أو تستخدمها.</p>
-    <h2>البيانات على iPhone</h2>
-    <p>يحفظ التطبيق ما تدخله والصور التي تختارها داخل مساحة التطبيق المحلية. يمكنك حذف جميع البيانات من الإعدادات، كما يؤدي حذف التطبيق إلى إزالة بياناته المحلية وفقًا لطريقة إدارتك أنت وApple لنسخ الجهاز الاحتياطية.</p>
+    <p>سِجِلّ تطبيق يعمل دون اتصال ويستخدم CloudKit من Apple لمزامنة سجلاتك عبر قاعدة بيانات iCloud الخاصة بك. لا تستطيع Compact Refined Apps الاطلاع على سجلات CloudKit الخاصة بمستخدمي الإصدار الفعلي، ولا تجمع ملفات السيارات أو سجلات الصيانة أو التكاليف أو الملاحظات أو التذكيرات أو صور الفواتير أو تبيعها أو تستخدمها.</p>
+    <h2>البيانات على iPhone وiCloud</h2>
+    <p>يحفظ التطبيق ما تدخله والصور التي تختارها داخل مساحة التطبيق المحلية، ثم تزامن Apple هذا المحتوى عبر قاعدة CloudKit الخاصة المرتبطة بحساب iCloud الخاص بك. تعود ملكية محتوى القاعدة الخاصة إليك، ولا يظهر في بوابة المطوّر، ويُحتسب من مساحة iCloud الخاصة بك. تنطبق شروط iCloud وسياسة خصوصية Apple على هذه الخدمة.</p>
+    <h2>الحذف والاحتفاظ</h2>
+    <p>يحذف خيار «حذف جميع البيانات» في إعدادات سِجِلّ سجلات التطبيق ويزامن الحذف عبر iCloud عند توفره. حذف التطبيق من جهاز واحد يزيل النسخة المحلية فقط ولا يمحو بمفرده نسخة iCloud الخاصة؛ وقد تعود البيانات بعد إعادة التثبيت أو عند استخدام جهاز آخر مسجل في حساب iCloud نفسه.</p>
     <h2>الصور والإشعارات والتصدير</h2>
     <ul>
-      <li>يستلم التطبيق فقط صورة الفاتورة التي تختارها عبر منتقي الصور من Apple.</li>
+      <li>يستلم التطبيق فقط صورة الفاتورة التي تختارها عبر منتقي الصور من Apple، وتدخل الصورة في المزامنة الخاصة نفسها للسجل المرتبط بها.</li>
       <li>تُجدول الإشعارات الاختيارية محليًا بعد منح الإذن.</li>
       <li>لا يغادر ملف PDF التطبيق إلا عندما تختار وجهة من قائمة المشاركة، وعندها تنطبق سياسة خصوصية تلك الوجهة.</li>
     </ul>
     <h2>المشتريات</h2>
     <p>تعالج Apple شراء سِجِلّ برو عبر StoreKit. لا نستلم بيانات بطاقتك. قد تعالج Apple معلومات الشراء والحساب وفق سياسة الخصوصية الخاصة بها.</p>
     <h2>لا تتبع ولا إعلانات</h2>
-    <p>لا يحتوي سِجِلّ على إعلانات أو تحليلات خارجية أو تتبع بين التطبيقات، ولا يوفر الإصدار 1.0 حسابًا أو خدمة سحابية يديرها المطور.</p>
+    <p>لا يحتوي سِجِلّ على إعلانات أو تحليلات خارجية أو تتبع بين التطبيقات. لا يوفر الإصدار 1.0 حسابًا خاصًا بسِجِلّ أو خادمًا مخصصًا أو قاعدة سحابية يديرها المطوّر؛ بل يستخدم خدمات CloudKit الخاصة وStoreKit من Apple.</p>
     <h2>التواصل</h2>
     <p><a href="mailto:compactrefinedapps@outlook.com?subject=Sijill%20Privacy">compactrefinedapps@outlook.com</a></p>
   </section>
