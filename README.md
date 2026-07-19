@@ -11,3 +11,8 @@ Public support and privacy pages for apps published by Compact Refined Apps.
 
 - Support: <https://compact-refined-apps-lab.github.io/memofuse/support/>
 - Privacy: <https://compact-refined-apps-lab.github.io/memofuse/privacy/>
+
+## FoleyCue
+
+- Support: <https://compact-refined-apps-lab.github.io/foleycue/support/>
+- Privacy: <https://compact-refined-apps-lab.github.io/foleycue/privacy/>
