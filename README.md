@@ -16,3 +16,8 @@ Public support and privacy pages for apps published by Compact Refined Apps.
 
 - Support: <https://compact-refined-apps-lab.github.io/foleycue/support/>
 - Privacy: <https://compact-refined-apps-lab.github.io/foleycue/privacy/>
+
+## BraidOrbit
+
+- Support: <https://compact-refined-apps-lab.github.io/braidorbit/support/>
+- Privacy: <https://compact-refined-apps-lab.github.io/braidorbit/privacy/>
